@@ -152,6 +152,8 @@ Use the command, head, on the file to show the contents of the beginning of the 
 Write the command that you used below.  Write the last line of the output below (it should be the title).
 ----------
 
+head pg1232.txt
+Title: The Prince
 
 
 ==========
@@ -164,6 +166,12 @@ Use tail on the file to show the contents of the end of the file.
 Write the command that you used below.  Write the last line of the output below.
 ----------
 
+tail pg1232.txt
+
+This Web site includes information about Project Gutenberg-tm,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.
 
 
 ==========
@@ -176,7 +184,8 @@ Use less and more on the file to show the contents of the file.  Try pressing sp
 Write the command that you used below.  Describe what spacebar and q does after using either less or more.
 ----------
 
-
+spacebar jumps sections
+q brings you back to the end of the text file.
 
 ==========
 20. Describe what situations you would use the following commands for viewing files: less, more, cat, tail, head
@@ -184,17 +193,25 @@ Write the command that you used below.  Describe what spacebar and q does after 
 (Some characteristics that may help your description might be the length of the file, whether or not you'd like to read the whole thing... or just the beginning or end, etc.)
 ----------
 
-
+less: shows less text
+more: shows more text
+cat: shows all text of the file
+tail: jumps to end
+head: jumps to front
 
 ==========
 21.  How many words are in pg1232.txt?  What command did you use to determine the word count?
 ----------
 
-
+52639 words
+wc pg1232.txt
 
 ==========
 22.  How many lines are in pg1232.txt?  What command did you use to determine the line count?
 ----------
+
+wc -l pg1232.txt 
+    5063 pg1232.txt
 
 
 ==========
@@ -202,3 +219,5 @@ Write the command that you used below.  Describe what spacebar and q does after 
 
 Write the command that you used below.
 ----------
+cp -r /Users/student/mtec1003-lab-03/books/other /Users/student/
+

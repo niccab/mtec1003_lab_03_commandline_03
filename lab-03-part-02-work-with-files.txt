@@ -219,5 +219,5 @@ wc -l pg1232.txt
 
 Write the command that you used below.
 ----------
-cp -r /Users/student/mtec1003-lab-03/books/other /Users/student/
+mv *.txt /Users/student/
 
